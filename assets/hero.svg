@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)" rx="20"/>
+  <g transform="translate(60,60)" fill="#fff">
+    <rect x="20" y="40" width="420" height="300" rx="16" fill-opacity="0.06"/>
+    <rect x="40" y="60" width="380" height="220" rx="12" fill-opacity="0.08"/>
+    <g transform="translate(480,40)">
+      <circle cx="120" cy="80" r="60" fill-opacity="0.08"/>
+      <rect x="60" y="160" width="200" height="140" rx="14" fill-opacity="0.06"/>
+    </g>
+    <g transform="translate(80,100)">
+      <rect x="0" y="0" width="260" height="18" rx="9"/>
+      <rect x="0" y="36" width="200" height="12" rx="6"/>
+      <rect x="0" y="64" width="220" height="12" rx="6"/>
+      <rect x="0" y="92" width="160" height="12" rx="6"/>
+    </g>
+    <g transform="translate(520,220)" fill="#fff">
+      <path d="M10 120h220v12H10z" opacity="0.06"/>
+      <path d="M60 20h90v90h-90z" opacity="0.08"/>
+    </g>
+  </g>
+</svg>
